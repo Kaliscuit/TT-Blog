@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490ed1c5-5254-4691-87bf-80059204ee8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/login.php" afterPath="$PROJECT_DIR$/application/controllers/login.php" />
     </list>
     <ignored path="TT Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,82 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="27" selection-start="636" selection-end="637" vertical-scroll-proportion="-14.44">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="1.16">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CI_phpStorm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="6" selection-start="4959" selection-end="4959" vertical-scroll-proportion="-57.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="46" selection-start="7557" selection-end="7557" vertical-scroll-proportion="0.5691824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="415" selection-end="415" vertical-scroll-proportion="12.627451">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-16.72">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/user_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="65" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.52">
+            <state line="15" column="46" selection-start="388" selection-end="388" vertical-scroll-proportion="0.25948405">
               <folding />
             </state>
           </provider>
@@ -136,8 +64,8 @@
         <option value="$PROJECT_DIR$/application/views/templates/header.php" />
         <option value="$PROJECT_DIR$/application/views/user_login.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/application/controllers/login.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/login.php" />
       </list>
     </option>
   </component>
@@ -321,6 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -460,16 +389,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+    <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.56">
+        <state line="51" column="8" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.71860814">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/user_login.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="65" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.52">
+        <state line="214" column="2" selection-start="7183" selection-end="7183" vertical-scroll-proportion="0.21069182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="6" selection-start="4959" selection-end="4959" vertical-scroll-proportion="2.2058823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="0.17298938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="636" selection-end="637" vertical-scroll-proportion="0.5477997">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="415" selection-end="415" vertical-scroll-proportion="-0.9810427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.6342944">
           <folding />
         </state>
       </provider>
@@ -481,51 +445,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+    <entry file="file://$PROJECT_DIR$/application/views/user_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="415" selection-end="415" vertical-scroll-proportion="12.627451">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="636" selection-end="637" vertical-scroll-proportion="-14.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.71860814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CI_phpStorm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="6" selection-start="4959" selection-end="4959" vertical-scroll-proportion="-57.0">
+        <state line="2" column="65" selection-start="166" selection-end="166" vertical-scroll-proportion="0.057663128">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="1.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="52" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-16.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="46" selection-start="7557" selection-end="7557" vertical-scroll-proportion="0.5691824">
+        <state line="15" column="46" selection-start="388" selection-end="388" vertical-scroll-proportion="0.25948405">
           <folding />
         </state>
       </provider>
