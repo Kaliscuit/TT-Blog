@@ -5,6 +5,7 @@ class Login extends CI_Controller {
     private $user;
 
     public function __construct() {
+        parent::__construct();
         $this->user = array(
             'username' => 'test',
             'password' => 'test'
