@@ -1,17 +1,34 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Login extends CI_Controller {
 
-    public function index()
-    {
+    private $user;
+
+    public function __construct() {
+        $this->user = array(
+            'username' => 'test',
+            'password' => 'test'
+        );
+    }
+
+    public function index() {
+        var_dump($this->session->userdata);
         $this->load->view('templates/header');
         $this->load->view('user_login');
         $this->load->view('templates/footer');
     }
 
-    public function process()
-    {
-        var_dump($_REQUEST);
-        die;
+    public function process() {
+        $username = $this->input->get_post('username');
+        $password = $this->input->get_post('password');
+        if ($this->user['username'] == $username && $this->user['password'] == $password) {
+            echo "Login successfully!";
+            $this->session->set_userdata(
+                array(
+                    'username'   => $username,
+                    'login_time' => time()
+                )
+            );
+        }
     }
 }

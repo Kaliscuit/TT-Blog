@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490ed1c5-5254-4691-87bf-80059204ee8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/header.php" afterPath="$PROJECT_DIR$/application/views/templates/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/login.php" afterPath="$PROJECT_DIR$/application/controllers/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user_login.php" afterPath="$PROJECT_DIR$/application/views/user_login.php" />
     </list>
     <ignored path="TT Blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368839629738" ignored="false" />
     <file path="/welcome.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368839733200" ignored="false" />
-    <file path="/login.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368840145972" ignored="false" />
-    <file path="/user_login.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368841584584" ignored="false" />
+    <file path="/login.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368842117089" ignored="false" />
+    <file path="/user_login.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368841801396" ignored="false" />
     <file path="/a.dummy" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368840987712" ignored="false" />
     <file path="/header.php" changelist="490ed1c5-5254-4691-87bf-80059204ee8a" time="1368841488461" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="0.17298938">
+            <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.56">
               <folding />
             </state>
           </provider>
@@ -58,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="318" selection-end="318" vertical-scroll-proportion="-8.36">
+            <state line="14" column="43" selection-start="354" selection-end="354" vertical-scroll-proportion="0.40364188">
               <folding />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file leaf-file-name="user_login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/user_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="845" selection-end="845" vertical-scroll-proportion="-15.96">
+            <state line="2" column="65" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.52">
               <folding />
             </state>
           </provider>
@@ -115,9 +116,9 @@
         <option value="$PROJECT_DIR$/CI_phpStorm.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
         <option value="$PROJECT_DIR$/application/views/user_login.php" />
         <option value="$PROJECT_DIR$/application/controllers/login.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
       </list>
     </option>
   </component>
@@ -468,23 +469,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/user_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="845" selection-end="845" vertical-scroll-proportion="-15.96">
+        <state line="2" column="65" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.52">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="318" selection-end="318" vertical-scroll-proportion="-8.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="214" selection-end="214" vertical-scroll-proportion="0.17298938">
+        <state line="14" column="43" selection-start="354" selection-end="354" vertical-scroll-proportion="0.40364188">
           <folding />
         </state>
       </provider>

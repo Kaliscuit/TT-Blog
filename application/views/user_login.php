@@ -1,6 +1,6 @@
 <form class="form-horizontal" action="/login/process" method="post">
     <div class="control-group">
-        <label class="control-label" for="inputUsername">Email</label>
+        <label class="control-label" for="inputUsername">Username</label>
         <div class="controls">
             <input type="text" id="inputUsername" placeholder="Username" name="username">
         </div>
