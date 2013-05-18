@@ -12,7 +12,8 @@ class Login extends CI_Controller {
     }
 
     public function index() {
-        var_dump($this->session->userdata);
+        var_dump($this->session->all_userdata);
+        var_dump($this->session->userdata('username'));
         $this->load->view('templates/header');
         $this->load->view('user_login');
         $this->load->view('templates/footer');
